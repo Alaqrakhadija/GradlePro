@@ -10,7 +10,7 @@ public class logintest {
 System.setProperty("webdriver.chrome.driver","chromedriver");
 WebDriver driver=new ChromeDriver();
 driver.get("https://www.facebook.com/");
-System.out.println(driver.getTitle());
+System.out.println(driver.getTitle()+"heheh");
 driver.close();
     }
 }
